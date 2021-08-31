@@ -1,0 +1,102 @@
+img {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+.container {
+    padding: 0 30px;
+}
+.language p {
+    text-align: center;
+    color: #69696B;
+    font-weight: 500;
+}
+.language p span {
+    padding: 0 5px;
+}
+.language p span.color {
+    color: #2F65A8;
+    cursor: pointer;
+}
+
+.form {
+    margin-top: 80px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #8B8C90;
+    color: #8B8C90;
+    font-weight: 500;
+    font-size: 18px;
+    outline: 0;
+    padding: 8px 5px;
+    margin-bottom: 20px;
+}
+
+.form button {
+    background: #1878F3;
+    border: 0;
+    outline: 0;
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    color: #365BBE;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.or {
+    position: relative;
+    margin-top: 80px;
+}
+.or span {
+    color: #69696B;
+    display: block;
+    text-align: center;
+    width: 40px;
+    margin: auto;
+    background: #fff;
+    z-index: 100000;
+}
+.or hr {
+    border: 0;
+    border-bottom: 1px solid #8B8C90;
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    z-index: -1;
+    /* transform: translate(0, -50%); */
+}
+
+.new button {
+    background: #30A24B;
+    border: 0;
+    outline: 0;
+    display: block;
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px 0;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
